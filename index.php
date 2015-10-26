@@ -5,5 +5,5 @@
 require "lib/Car.php";
 
 $car = new Car();
-$car->drive(50);
+$car->drive(30); // 50 is to fast :)
 echo "Car has driven " . $car->getKm() . " km";
