@@ -2,6 +2,8 @@
 class Car
 {
     private $km = 0;
+	private $speed = 0;
+	private $maxSpeed = 100;
     
     public function drive($km) 
     {
@@ -12,6 +14,5 @@ class Car
     {
         return $this->km;
     }
-
 
 }
